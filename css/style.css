@@ -1,0 +1,79 @@
+.color-principal-bg{
+  background-color: #a00f32;
+  color: white;
+}
+
+.color-principal-txt{
+color: #a00f32;
+}
+
+#sobre{
+	margin-top: 2em;
+	margin-bottom: 5em;
+}
+
+#contatos{
+	margin-bottom: .5em;
+}
+
+i{
+	font-size: 2em!important;
+}
+
+#facebook::after {
+    content: "/contaccontabilidade";
+    font-weight: normal;
+    font-size: .5em;
+}
+
+#instagram::after {
+    content: "@contaccontabilidade ";
+    font-weight: normal;
+    font-size: .5em;
+}
+
+#whatsapp::after {
+    content: "(61) 3038-1520/99286-7711";
+    font-weight: normal;
+    font-size: .5em;
+}
+
+footer{
+	margin-bottom: 1em;
+}
+
+@media screen and (min-width: 1600px){
+	#cursos .jumbotron{
+		padding-bottom: 10.5em!important;
+	}
+
+	#sobre{
+		margin-top: 2em!important;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px){
+	
+	h3.offset-sm, p.offset-sm, h1.offset-sm{
+		display: none;
+	}
+
+	main{
+		margin-top: 3.5em;
+	}
+
+	.navbar-brand img{
+		display: none;
+	}
+
+	nav .nav-item a{
+		color: white!important;
+	}
+
+	.bg-light{
+		background-color: #a00f32!important; 	
+	}
+
+}
+
+
